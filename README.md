@@ -4,7 +4,7 @@ user secrets does not work on wsl2
 To reproduce this issue....
 
 1. Clone to a WSL2 directory
-2. run `dotnet user-secrets set SampleValue "user-secrets"
+2. run `dotnet user-secrets set SampleValue "user-secrets"`
 
 what should happen?
 - it should set the user secret, navigating to / should display "user-secrets"
